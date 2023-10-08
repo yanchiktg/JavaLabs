@@ -24,16 +24,12 @@ public class Main {
         StringBuilder s1 = new StringBuilder(" asfas11111 222 33333 44444");
         task11(s1);
         System.out.println("task11: " + s1);
-//
-//        //15 ??task15: aasdffgh ff zxaaacvff
-//              letters: aa ff
-//              2 4
         System.out.println("__________________________________");
         StringBuilder s2 = new StringBuilder("aaaaasdffgh ssff zxaaacssvfff ddjhgdd oo oo oo nn");
         System.out.println("task15: " + s2);
         task15(s2);
 
-//        //19
+        //19
         System.out.println("\n__________________________________");
         StringBuilder s3 = new StringBuilder("qsd sddsfds skdkd axzdfgx dgggggg qwe aa");
         task19(s3, 7);
@@ -97,12 +93,9 @@ public class Main {
                 letters.setLength(0);
                 letters.append(str.charAt(i));
                 letters.append(str.charAt(i+1));
-                //System.out.println("letters " + letters);
                 k = charPar.indexOf(String.valueOf(letters), 0);
-                //System.out.println(k);
                 if(k >= 0){
                     kolArray[k] += 1;
-                    //System.out.println("Kol = " + kolArray[k]);
                 }
                 else {
                     charPar.append(letters);
@@ -135,29 +128,6 @@ public class Main {
             }
         }
     }
-
-//    //"asd dddsfds skdkd dgggggg qwe aa"
-//    public static void task19(StringBuilder str, int dlina){
-//        int indexFirst = -2, i = 0;
-//        System.out.println("str: " + str);
-//        while (indexFirst != -1){
-//            if(indexFirst >= 0)
-//                indexFirst = str.indexOf(" ", indexFirst+1);//indexFirst+1
-//            else
-//                indexFirst = 0;
-//
-//            System.out.println(indexFirst+1);
-//            char c = str.charAt(indexFirst+1);
-//            System.out.println("c = " + c);
-//
-//            for (i = 0; i < str.length(); i++){
-//                if(c == 'e' || c == 'y' || c == 'u' || c == 'i' || c == 'o' || c == 'a'){
-//
-//                }
-//            }
-//        }
-//    }
-
 
     //"asd     dddsfds 43534 skdkd  dgggggggggggggg qwe aa\0"
     public static void task11(StringBuilder str){
@@ -213,10 +183,5 @@ public class Main {
         System.out.println("Imax = " + indexMax);
         System.out.println("Mlength = " + lengthmax);
     }
-
-
-//    public static String task19(String str, int n){
-//        str = str.trim();
-//    }
 }
 
