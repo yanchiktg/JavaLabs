@@ -39,22 +39,3 @@ public class Task1 {
         }
     }
 }
-
-
-
-
-
-
-
-//    public static double areaCone(double r1, double r2, double l){
-//        if(r1 < 0){
-//            throw new IllegalArgumentException("IllegalArgumentException! (r1 < 0): " + r1);
-//        }
-//        if (r2 < 0){
-//            throw new IllegalArgumentException("IllegalArgumentException! (r2 < 0): " + r2);
-//        }
-//        if (l < 0){
-//            throw new IllegalArgumentException("IllegalArgumentException! (l < 0): " + l);
-//        }
-//        return Math.PI * (r1 + r2) * l;
-//    }
