@@ -10,9 +10,9 @@ public class Main {
 
         String str45 = "_";
         if (w(str45))
-            System.out.println("Нет зад смв");
+            System.out.println("Нет заданный символ");
         else
-            System.out.println("Есть зад симв");
+            System.out.println("Есть заданный символ");
 
         System.out.println("---------------colorHTML----------------");
         System.out.println(colorHTML("#FFFFFF"));
@@ -77,28 +77,5 @@ public class Main {
         System.out.println(twoLetters("aAaAaAAbBbBbBBn"));
         System.out.println(twoLetters("a"));
         System.out.println(twoLetters("aaaaaaaaaaaa"));
-
-//        String str1 = "#FFFFFF";
-//        String str2 = "#FF3421";
-//        String str3 = "#00ff00 ";
-//        String str4 = "#000000";
-//        String str5 = "232323 ";
-//        String str6 = "f#fddee";
-//        String str7 = "#fd2";
-//        String str8 = "1235#";
-//        Pattern p = Pattern.compile("^#([A-Fa-f0-9]{6})");
-//        Matcher m1 = p.matcher(str1);
-//        Matcher m2 = p.matcher(str2);
-//        Matcher m3 = p.matcher(str8);
-//        Matcher m4 = p.matcher(str5);
-//
-//        System.out.println(m1.matches());
-//        System.out.println(m2.matches());
-//        System.out.println(m3.matches());
-//        System.out.println(m4.matches());
-
-//        while (m.find()) {
-//            System.out.println(str.substring(m.start(), m.end()));
-//        }
     }
 }
